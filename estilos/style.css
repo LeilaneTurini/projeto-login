@@ -32,7 +32,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     background-color: var(--cor4);
     width: 300px;
     height: 550px;
@@ -41,6 +41,7 @@ section#login {
     box-shadow: 0px, 0px, 10px var(--cor1);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 div#imagem {
